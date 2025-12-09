@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EARN WITH RASHID — POWERED BY ZULUTRADE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛏️</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Earn With Rashid</div>
+            
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#upload">Upload</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero fade-in-section">
+        <div class="hero-content">
+            <h1>EARN WITH RASHID — POWERED BY ZULUTRADE</h1>
+            <h2>Fast & Transparent Crypto Investment Plans — 24 hrs to 1-Week Returns</h2>
+            <p>Earn With Rashid makes crypto investment simple. Invest USDT, and we trade on your behalf — you get returns in as little as 24 hours up to one week.</p>
+            <h3>How It Works:</h3>
+            
+                <li>You invest USDT</li>
+                <li>We trade in top cryptocurrencies</li>
+                <li>You get returns within 24 hrs to 1 week</li>
+            </ul>
+            <p>Minimum Investment: 500 USD</p>
+            <a href="plans.html" href="#plans" class="cta-button">Start Copy Trading Now</a>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Key Benefits Section -->
+    <section id="benefits" class="benefits fade-in-section">
+        <h2>Choose Your Plan</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="icon">⚡</div>
+                <h3>PLAN 1 — Beginner Boost</h3>
+                <p>Invest: $100 – $500
+Duration: 24 hours
+Highlights:
+Up to 2× potential in 24 hours (illustrative)
+Create your Telegram account
+Buy your plan
+Watch your money grow step-by-step
+Take your funds anytime you need</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">💰</div>
+                <h3>PLAN 2 — Fast Growth Plan</h3>
+                <p>Reliable returns paid every 2 days, designed to maximize your earnings efficiently.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">🔒</div>
+                <h3>PLAN 3 — PowerAdvance 7-Day Plan</h3>
+                <p>Consistent profits over 3 days, ideal for investors who want steady growth.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">🌍</div>
+                <h3>PLAN 4 — Elite Max 10-Day Plan</h3>
+                <p>Secure and stable returns over 7 days, best for larger investments aiming for reliable benefits.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mining Plans Section -->
+    <section id="plans" class="plans">
+        <h2>Choose Your Trader</h2>
+        <div class="plans-grid">
+            <div class="plan-card">
+<h3>Name: Earn With Rashid</h3>
+<li>Country: UAE / Pak</li>
+<li>Experience: 6+ Years</li>
+<li>Specialty: Short-cycle crypto <p>Specialty: Short-cycle crypto & copy trading</p> copy trading</li>
+
+<li>Built strong beginner community</li>
+<li>Clear signals & simple strategies</li>
+<li>Expert in 24H / 7-Day trading cycles</li>
+</ul></ul>
+<button class="plan-btn">Copy Trader Rashid</button>            </div>
+            <div class="plan-card popular">
+                <h3>Rabeka FX Signals</h3>
+                <div class="price">20–40% Monthly Return</div>
+                
+                    <li>Country: Russia</li>
+                    <li>Experience: 7+ Years</li>
+                    <li>Specialty: Futures <li>Strategy: High-volume crypto trading</li> algorithmic momentum trading</li>
+                </ul>
+                <button class="buy-button" onclick="window.location.href='payment.html?plan=advanced'">Copy Rabeka FX</button>
+            </div>
+            <div class="plan-card">
+                <h3>Ali SignalPro</h3>
+                <div class="price">35–60% Monthly Return</div>
+                
+                    <li>Risk Score: High (7/10)</li>
+                    <li>Experience: 6+ Years</li>
+                    <li>Strategy: Aggressive swing trading</li>
+                </ul>
+                <button class="buy-button" onclick="window.location.href='payment.html?plan=premium'">Copy Ali SignalPro</button>
+            </div>
+        </div>
+        <p>Act Now — Deposit Today & Watch Your Investment Grow! Choose your plan, deposit immediately, and start earning from your first day.</p>
+    </section>
+
+    <!-- Upload QR Code Section -->
+    <section id="upload" class="upload-section fade-in-section">
+        <h2>Upload Your QR Code</h2>
+        <p>Securely upload your wallet QR code for easy payouts.</p>
+        <div class="upload-container">
+            <input type="file" id="qr-upload" accept="image/*" style="display: none;">
+            <label for="qr-upload" class="upload-button">Choose QR Code Image</label>
+            <div id="qr-preview" class="preview-box"></div>
+        </div>
+    </section>
+
+    <!-- Screenshot Gallery Section -->
+    <section class="gallery-section fade-in-section">
+        <h2>Trading Screenshots Gallery</h2>
+        <p>Share and view trading performance screenshots.</p>
+        <div class="gallery-container">
+            <input type="file" id="screenshot-upload" accept="image/*" multiple style="display: none;">
+            <label for="screenshot-upload" class="upload-button">Upload Screenshots</label>
+            <div id="gallery" class="gallery-grid"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in-section">
+        <h2>About Copy Trading</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>What is Copy Trading?</h3>
+                <p>Copy trading allows you to earn cryptocurrency by copying the trades of professional traders. We handle the trading strategies, risk management, and payouts.</p>
+                <h3>Why Choose Us?</h3>
+                <p>Our platform offers top-tier security, transparency, and profitability. Join a community of successful traders.</p>
+            </div>
+            <div class="about-image">
+                <!-- Placeholder for image -->
+                <div class="placeholder">Trading Dashboard Image</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap fade-in-section">
+        <h2>Our Roadmap</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Launch</h3>
+                    <p>Platform goes live with basic mining plans.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>New Mining Machines</h3>
+                    <p>Upgrade to latest ASIC miners for better efficiency.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Global Expansion</h3>
+                    <p>Open data centers in new regions.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Mobile App Release</h3>
+                    <p>Manage mining on the go with our app.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq fade-in-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3>How does copy trading work?</h3>
+                <p>You invest in a trader's portfolio, and we copy their trades automatically, sending earnings to your wallet.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is it profitable?</h3>
+                <p>Yes, with our professional traders and low fees, you can earn consistent returns.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What cryptocurrencies can I trade?</h3>
+                <p>Primarily Bitcoin, Ethereum, and other major coins, with plans for more in the future.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How secure is my investment?</h3>
+                <p>We use enterprise-grade security and transparent operations.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I withdraw anytime?</h3>
+                <p>Yes, payouts are processed daily with no minimum withdrawal.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you support mobile?</h3>
+                <p>Our platform is fully responsive and works on all devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="fade-in-section">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Earn With Rashid — Automated Copy Trading Powered by ZuluTrade</h3>
+                <p>Contact us for investment support, trading assistance, or account setup.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#">Twitter</a>
+                    <a href="#">Telegram</a>
+                    <a href="#">Discord</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <p>Email: support@cryptominepro.com</p>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+        <p>&copy; 2023 CryptoMine Pro. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+<!-- USDT (TRC20) Live Balance Checker -->
+<section class="section-clean" id="usdt-checker" style="background:#fff; padding:30px; max-width:720px; margin:40px auto; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.06);">
+  <h2 style="text-align:center; margin-top:0;">USDT (TRC20) Balance Checker</h2>
+
+  <div style="display:flex; gap:12px; align-items:center; justify-content:center; margin:18px 0;">
+    <input id="tronAddressInput" placeholder="Enter TRON address (e.g. T...)" style="width:60%; padding:10px; border-radius:8px; border:1px solid #ccc;" />
+    <button id="checkBalanceBtn" style="padding:10px 14px; border-radius:8px; background:#0f172a; color:white; border:none;">Check</button>
+    <button id="useInvoiceAddrBtn" style="padding:10px 14px; border-radius:8px; background:#047857; color:white; border:none;">Use Invoice Address</button>
+  </div>
+
+  <div id="balanceResult" style="text-align:center; font-weight:700; font-size:18px; margin-top:14px; color:#0f172a;">Enter address and click Check</div>
+
+  <p style="margin-top:12px; text-align:center; color:#666; font-size:13px;">
+    Note: This checks USDT (TRC20) token balance on TRON using a public API. If you see "CORS" error, use the serverless endpoint option provided in admin docs.
+  </p>
+</section>
+
+<script>
+async function fetchTronAccount(address) {
+  // Using public TronScan API (may be rate-limited / CORS policy)
+  // This endpoint lists tokens for an account: https://apilist.tronscan.org/api/account?address=<address>
+  const url = "https://apilist.tronscan.org/api/account?address=" + encodeURIComponent(address);
+  const r = await fetch(url);
+  if (!r.ok) throw new Error("Network error: " + r.status);
+  return r.json();
+}
+
+function formatNumber(n) {
+  return Number(n).toLocaleString(undefined, { maximumFractionDigits: 6 });
+}
+
+document.getElementById("checkBalanceBtn").addEventListener("click", async () => {
+  const addr = document.getElementById("tronAddressInput").value.trim();
+  const out = document.getElementById("balanceResult");
+  if (!addr) { out.innerText = "Please enter a TRON address."; return; }
+  out.innerText = "Checking...";
+
+  try {
+    const data = await fetchTronAccount(addr);
+    // TronScan returns token balances in data.tokenBalances (varies by endpoint)
+    // We try multiple possible fields to be resilient:
+    let usdtAmount = null;
+
+    // 1) tokenBalances array (TronGrid style)
+    if (data && data.tokenBalances && Array.isArray(data.tokenBalances)) {
+      for (const t of data.tokenBalances) {
+        // t.tokenName / t.tokenId / t.tokenDecimal may exist
+        const name = (t.tokenName || t.name || "").toLowerCase();
+        if (name.includes("tether") || name.includes("usdt") || (t.tokenId && t.tokenId.includes("Tether"))) {
+          // value may be in 'balance' or 'amount'
+          const raw = t.balance ?? t.amount ?? t.value ?? 0;
+          const decimals = t.tokenDecimal ?? t.decimals ?? 6;
+          usdtAmount = Number(raw) / Math.pow(10, decimals);
+          break;
+        }
+      }
+    }
+
+    // 2) older TronScan response uses tokenBalances map
+    if (usdtAmount === null && data && data.tokens) {
+      for (const t of data.tokens) {
+        const name = (t.tokenName || t.token) + "";
+        if (name.toLowerCase().includes("usdt") || name.toLowerCase().includes("tether")) {
+          usdtAmount = Number(t.balance) / (t.tokenDecimal ? Math.pow(10, t.tokenDecimal) : 6);
+          break;
+        }
+      }
+    }
+
+    if (usdtAmount === null) {
+      out.innerText = "USDT not found on this address (0) or API returned unexpected format.";
+    } else {
+      out.innerText = "USDT Balance: " + formatNumber(usdtAmount) + " USDT";
+    }
+  } catch (err) {
+    console.error(err);
+    // Helpful message for CORS or network issues
+    out.innerText = "Error checking balance: " + (err.message || err);
+  }
+});
+
+// Optional: prefill invoice address if you have a global invoice address variable
+document.getElementById("useInvoiceAddrBtn").addEventListener("click", () => {
+  // If your site stores the current invoice address in window.CURRENT_INVOICE_ADDRESS, use it:
+  const inv = window.CURRENT_INVOICE_ADDRESS || "";
+  if (inv) {
+    document.getElementById("tronAddressInput").value = inv;
+  } else {
+    alert("No invoice address detected on this page.");
+  }
+});
+</script>
+
+</body>
+</html>
